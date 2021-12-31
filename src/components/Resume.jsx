@@ -1,7 +1,7 @@
 import React from 'react';
 
 import resume from '../assets/Enan-resume.pdf';
-import dImg from '../assets/dImg.png';
+import dImg from '../assets/img/dImg.png';
 
 
 function Resume() {

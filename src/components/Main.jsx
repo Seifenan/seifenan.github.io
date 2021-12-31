@@ -9,7 +9,7 @@ function Main() {
         <p style={{ paddingTop: "20px" }}>Welcome to my React Portfolio; please note this is an ongoing project.</p>
         <p>I aim to add my best projects here on my main page while keeping all my projects on the Portfolio page.</p>
       </div>
-      <About></About>
+      <About />
 
     </div>
   );

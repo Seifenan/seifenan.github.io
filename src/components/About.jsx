@@ -1,12 +1,12 @@
 import React from 'react';
-import coverImage from '../assets/profile-pic.jpg';
+import coverImage from '../assets/img/profile-pic.jpg';
 function About() {
   return (
     <div className='container dSection'>
-      <div className='bio-pic'>
-        <img src={coverImage} className='bio-img' alt='main-profile' />
+      <div>
+        <img src={coverImage} className='bioImg' alt='main-profile' />
       </div>
-      <div className="bio-info">
+      <div className="bioInfo">
         <h2>About Me</h2>
         <p>I am a licensed Real Estate Agent dedicated to giving clients professional service and honest advice.</p>
         <br></br>

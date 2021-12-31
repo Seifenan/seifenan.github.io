@@ -1,11 +1,11 @@
 import React from 'react';
 
-import iFitNut from "../assets/iFitNut.png";
-import boredGenie from "../assets/bored-genie.png";
-import passGen from "../assets/password-gen.png";
-import weatherDash from "../assets/weather-dashboard.png";
-import wdScheduler from "../assets/scheduler.png";
-import cQuiz from "../assets/code-quiz.png";
+import iFitNut from "../assets/img/iFitNut.png";
+import boredGenie from "../assets/img/bored-genie.png";
+import passGen from "../assets/img/password-gen.png";
+import weatherDash from "../assets/img/weather-dashboard.png";
+import wdScheduler from "../assets/img/scheduler.png";
+import cQuiz from "../assets/img/code-quiz.png";
 
 function Project() {
   const projects = [
@@ -27,23 +27,24 @@ function Project() {
       liveURL: 'https://seifenan.github.io/Project-1-Bored-Genie/',
       gitHub: 'https://github.com/Seifenan/Project-1-Bored-Genie',
     },
+    
     {
       id: 2,
-      name: 'Password Generator',
-      image: passGen,
-      info: 'An average Password can be guessed by the average user or be vulnerable to brute-force attacks. Using a combination of random uppercase and lowercase alphabets, as well as, numbers and special characters in your Password, increases its strength and prevents malicious users from getting in!',
-      liveURL: 'https://seifenan.github.io/c3-password-generator/',
-      imgTxt: 'project3:password-generator',
-      gitHub: 'https://github.com/Seifenan/c3-password-generator',
-    },
-    {
-      id: 3,
       name: 'Weather Dashboard',
       image: weatherDash,
       info: 'This weather app allows users to access weather information for multiple cities and plan a trip accordingly.',
       liveURL: 'https://seifenan.github.io/c6-weather-dashboard/',
       imgTxt: 'project4:weather-dashboard',
       gitHub: 'https://github.com/Seifenan/c6-weather-dashboard',
+    },
+    {
+      id: 3,
+      name: 'Password Generator',
+      image: passGen,
+      info: 'An average Password can be guessed by the average user or be vulnerable to brute-force attacks. Using a combination of random uppercase and lowercase alphabets, as well as, numbers and special characters in your Password, increases its strength and prevents malicious users from getting in!',
+      liveURL: 'https://seifenan.github.io/c3-password-generator/',
+      imgTxt: 'project3:password-generator',
+      gitHub: 'https://github.com/Seifenan/c3-password-generator',
     },
     {
       id: 4,
@@ -66,14 +67,14 @@ function Project() {
   ];
 
   return (
-    <div>
+    <div className='projectSection'>
       {projects.map((projects) => (
         <div key={projects.id} className="testC">
           <div className="card">
-            <img src={projects.image} alt={projects.imgTxt} width="100%" />
+            <img src={projects.image} alt={projects.imgTxt} style={{ borderRadius: "5px" }} width="100%" />
             <h3>{projects.name}</h3>
             <p>{projects.info}</p>
-            <div className="card2">
+            <div className="cardLink">
               <a href={projects.liveURL} target="blank">Deployed Site</a>
               <a href={projects.gitHub} target="blank">GitHub</a>
             </div>

@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+
+  color: var(--text);
+
+
+  /* background-color: gray; */
+}
+
+:root {
+  --white: #ffffff;
+  --light: #c9c9c9;
+  --dark: rgb(94, 94, 94, 0.9);
+  --black: #000000;
+  --lastn: #070bfa;
+  --shadow: #7c7c7c;
+  --text: white;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--shadow);
+  /* filter: brightness(80%); */
+}
+
+h2 {
+  text-align: center;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  padding-top: 2%;
+}
+
+.navpd {
+  padding-bottom: 5%;
+}
+
+.logo:hover {
+  filter: brightness(50%);
+}
+
+.navItems {
+  display: flex;
+
+  flex-wrap: wrap;
+  float: right;
+  /* justify-content: space-between; */
+  padding-top: 20px;
+
+
+  /* width: 0;
+  overflow: hidden; */
+
+}
+
+.navItems.showMenu {
+  width: 100%;
+}
+
+.navItems li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.container {
+  /* padding: 3%; */
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  position: relative;
+  /* flex-wrap: wrap; */
+}
+
+.bioImg {
+  width: 90%;
+  border-radius: 5px;
+}
+
+.bioInfo {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 7%;
+  border-radius: 10px;
+
+  background-color: var(--dark);
+
+
+  /* revamp about section */
+
+
+}
+
+.container2 {
+  position: relative;
+  padding: 2%;
+}
+
+.projectSection {
+  display: flex;
+  flex-wrap: wrap;
+
+  /* flex-direction: column; */
+
+
+  padding: 2%;
+
+
+  /* background-color: red; */
+}
+
+.testC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+  width: 30%;
+
+
+
+  /* background-color: blue; */
+}
+
+.card {
+  padding: 3%;
+  border-radius: 10px;
+
+  background-color: var(--dark);
+}
+
+
+
+
+.cardLink {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.cardLink a {
+  text-decoration: underline;
+}
+
+
+
+
+/* ___Remove__For_Testing___ */
+
+.navBar button {
+  position: fixed;
+  right: 40px;
+  top: 40px;
+}
+
+
+
+.hamburger {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  z-index: 10;
+}
+
+
+
+.burger {
+  width: 2rem;
+  height: .025rem;
+  border-radius: 10px;
+  background-color: white;
+  transform-origin: 1px;
+  transition: all 0.3s linear;
+
+}
+
+
+
+
+/* _____________ */
+
+
+
+
+.footer {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  color: var(--text);
+  padding: 3%;
+
+}
+
+@media (max-width: 1000px) {}
+
+.hamburger {
+  display: none;
+}
+
+
+@media (max-width: 800px) {
+  .testC {
+    width: 40%;
+  }
+
+  .hamburger {
+    display: fixed;
+    padding-top: 10px;
+    padding-right: 10px;
+    z-index: 10;
+  }
+}
+
+@media (max-width: 480px) {
+  .testC {
+    width: 80%;
+  }
+}
+
+@media (max-width: 320px) {
+  .testC {
+    width: 100%;
+  }
+}

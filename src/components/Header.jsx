@@ -4,10 +4,10 @@ import Nav from './Nav';
 function Header() {
   return (
     <div>
-      <div className="nav-bar">
-        <a className="my-name" href="/c20-react-portfolio"><h1>💻 Seif <span className="lastn">Enan</span></h1></a>
+      <div className="navBar">
+        <a className="logo" href="/"><h1>💻 Seif <span className="lastn">Enan</span></h1></a>
         <div>
-          <Nav></Nav>
+          <Nav />
         </div>
       </div>
       <div className='navpd'></div>
