@@ -50,20 +50,8 @@ h2 {
 
 .navItems {
   display: flex;
-
-  flex-wrap: wrap;
-  float: right;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   padding-top: 20px;
-
-
-  /* width: 0;
-  overflow: hidden; */
-
-}
-
-.navItems.showMenu {
-  width: 100%;
 }
 
 .navItems li {
@@ -156,16 +144,7 @@ h2 {
 
 
 
-/* ___Remove__For_Testing___ */
-
-.navBar button {
-  position: fixed;
-  right: 40px;
-  top: 40px;
-}
-
-
-
+/* ___Remove___ */
 .hamburger {
   width: 2rem;
   height: 2rem;
@@ -186,6 +165,9 @@ h2 {
   transition: all 0.3s linear;
 
 }
+
+/* Delete__for-testing */
+
 
 
 
