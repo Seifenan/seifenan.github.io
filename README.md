@@ -1,38 +1,28 @@
-# Advanced CSS-C2: Professional Portfolio
 
-I am a **Licensed** Real Estate **Agent**, as such, my **Resume** and **About Me** description are tailored to accomodate that **field**.
+  # c20-react-portfolio  
+  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/mit/)
 
-> With my new found passion for **software development**, I plan on further building my **repository** with meaningful projects to showcase my **skillsets** and **abilities**.
+  ## Description  
+  This portfolio was created using React.
 
-### Current Deployed Project Repositories
-* Project 1: iFitNut
-    - https://ifitnut.herokuapp.com/
+  [Deployed Link](https://seifenan.github.io/c20-react-portfolio/)
 
-* Project 2: Bored Genie
-    - https://seifenan.github.io/Project-1-Bored-Genie/
-    
-* Project 3: Password Generator
-    - https://seifenan.github.io/c3-password-generator/
-    
-* Project 4: Weather Dashboard
-    - https://seifenan.github.io/c6-weather-dashboard/
-    
-* Project 5: Work Day Scheduler
-    - https://seifenan.github.io/c5-work-day-scheduler/
-    
-* Project 6: Code Quiz
-    - https://seifenan.github.io/c4-code-quiz/
+  ## Table of Contents 
+  * [description](#description)
+  * [usage](#usage)
+  * [questions](#questions)
+  * [license](#license)
+  
 
---- 
-# Submission
+  ## Usage 
+  Thank you for visiting my repo!
 
-[Deployed URL Link](https://seifenan.github.io/) 
+  <img src="src/assets/screenshot.png"/>
+  
+  ## Questions
+  To check out more of my projects, visit my [GitHub](https://github.com/seifenan) page.
+  To reach me with more questions email me at seifenan@gmail.com. 
 
-[Github Repository Link](https://github.com/Seifenan/seifenan.github.io) 
 
->I was tasked with building a draft Portfolio, which I will add to as the course progresses.
-
-## Completed Screenshot
-
-<img src="assets\images\screenshot.png">
-
+  ## License
+  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/mit/)
