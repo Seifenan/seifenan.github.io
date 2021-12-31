@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --white: #ffffff;
+    --light: #c9c9c9;
+    --dark: #5e5e5e;
+    --black: #000000;
+    --lastn: #070bfa;
+}
+
+body {
+    background-color: var(--white);
+}
+
+a {
+    
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:hover {
+    filter: brightness(60%);
+}
+
+p {
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 22px;
+}
+
+.nav-bar {
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--black);
+    color: var(--white);
+    
+}
+
+.my-name {
+    display: inline-block;
+    font-size: 27px;
+}
+
+
+.nav-bar h1 .lastn,
+.footer h2 .lastn,
+.footer p .lastn {
+    color: var(--lastn);
+}
+
+.nav-bar div {
+    padding-top: 18px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.nav-bar div ul {
+    list-style-type: none;
+}
+
+.nav-bar div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#about {
+    background-color: var(--light);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bio-pic {
+    width: 40%;
+}
+
+.bio-img {
+    width: 90%;
+    border-radius: 5px;
+}
+
+.bio-img:hover {
+    transform: translateX(20%) translateY(-12%) scale(1.4);
+}
+
+.bio-info {
+    width: 60%;
+}
+
+.bio-pic,
+.bio-info {
+    float: left;
+    margin-top: 7%;
+}
+
+.bio-info h2 {
+    padding-bottom: 3%;
+}
+
+.card-p-one {
+    width: 40% !important;
+}
+
+.card-p-one:hover {
+    transform: translateX(8%) scale(1.35) !important;
+}
+
+.card-p-one,
+.card-p-two,
+.card-p-three,
+.card-p-four,
+.card-p-five,
+.card-p-six {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 22%;
+    border-radius: 5px;
+    margin: 2%;
+    padding: 2%;
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-p-one:hover,
+.card-p-two:hover,
+.card-p-three:hover,
+.card-p-four:hover,
+.card-p-five:hover,
+.card-p-six:hover {
+    box-shadow: 10px 20px 30px 5px rgba(0, 0, 0, 0.2);
+    background-color: var(--dark);
+    color: var(--white);
+    transform: scale(1.35);
+}
+
+.container-two {
+    border-radius: 5px;
+    background-color: var(--dark);
+    padding: 20px;
+    color: var(--white);
+}
+
+.container-two p {
+    display: inline-block;
+    margin-left: 3%;
+}
+
+input[type=text], 
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.footer {
+    padding: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: var(--light);
+}
+
+.footer a {
+    color: var(--black);
+}
+
+  @media screen and (max-width: 768px) {
+    p {
+        font-size: 12px;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+
+    .nav-bar div {
+        padding-top: 14px;
+        margin-right: 0px;
+        font-size: 14px;
+    }
+
+    .my-name {
+        font-size: 20px;
+    }   
+    
+    .nav-bar div ul li {
+        margin-left: 15px;
+    }
+    
+    .container h3 {
+        font-size: 13px;
+    }
+}
+
+  @media screen and (max-width: 480px) {
+    p {
+        font-size: 10px;
+    }
+    
+    h2 {
+        font-size: 14px;
+    }
+
+    .nav-bar div {
+        padding-top: 9px;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+
+    .my-name {
+        font-size: 16px;
+    }   
+    
+    .nav-bar div ul li {
+        margin-left: 10px;
+    }
+
+    .container h3 {
+        font-size: 11px;
+    }
+}
+
+  @media screen and (max-width: 300px) {
+    p {
+        font-size: 10px;
+    }
+    
+    h2 {
+        font-size: 14px;
+    }
+
+    .nav-bar div {
+        font-size: 10px;
+    }
+
+    .my-name {
+        font-size: 14px;
+    }   
+    
+    .nav-bar div ul li {
+        margin-left: 1px;
+    }
+
+    .container {
+        display: inline-block !important;
+    }
+
+    .card-p-one,
+    .card-p-two,
+    .card-p-three,
+    .card-p-four,
+    .card-p-five,
+    .card-p-six {
+        width: 100% !important;
+        margin-left: 0;
+        margin-bottom: 7%;
+    }
+}
