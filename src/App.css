@@ -59,6 +59,15 @@ h2 {
   list-style: none;
 }
 
+.intro {
+  position: relative;
+
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding: 2%;
+}
+
 .container {
   /* padding: 3%; */
   display: flex;
@@ -68,9 +77,26 @@ h2 {
   /* flex-wrap: wrap; */
 }
 
+.aboutS {
+  padding: 2%;
+  margin: 2%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  /* z-index: 9; */
+
+  border-radius: 10px;
+
+  background-color: var(--dark);
+}
+
 .bioImg {
   width: 90%;
-  border-radius: 5px;
+  border-radius: 50%;
 }
 
 .bioInfo {
@@ -81,9 +107,7 @@ h2 {
   align-items: center;
 
   padding: 7%;
-  border-radius: 10px;
 
-  background-color: var(--dark);
 
 
   /* revamp about section */
@@ -110,11 +134,13 @@ h2 {
 }
 
 .testC {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   padding-bottom: 5%;
   width: 30%;
+
+  /* position: relative; */
 
 
 
@@ -125,20 +151,28 @@ h2 {
   padding: 3%;
   border-radius: 10px;
 
+  /* width: 500px; */
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+
+
+
   background-color: var(--dark);
 }
 
 
 
 
+
+
 .cardLink {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; 
   padding-top: 20px;
-}
-
-.cardLink a {
-  text-decoration: underline;
 }
 
 

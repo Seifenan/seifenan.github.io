@@ -1,5 +1,7 @@
 import React from 'react';
 import About from './About';
+import FeaturedProject from './FeaturedProjects';
+
 
 function Main() {
   return (
@@ -10,7 +12,10 @@ function Main() {
         <p>I aim to add my best projects here on my main page while keeping all my projects on the Portfolio page.</p>
       </div>
       <About />
-
+      <div className="container2">
+        <h3 style={{textAlign: 'center'}}>Featured Projects</h3>
+        <FeaturedProject />
+      </div>
     </div>
   );
 }
