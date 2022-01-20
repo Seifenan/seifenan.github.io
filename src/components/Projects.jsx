@@ -1,5 +1,6 @@
 import React from 'react';
 
+import boredGenie from "../assets/img/bored-genie.png";
 import passGen from "../assets/img/password-gen.png";
 import weatherDash from "../assets/img/weather-dashboard.png";
 import wdScheduler from "../assets/img/scheduler.png";
@@ -11,6 +12,15 @@ function Project() {
   const projects = [
     {
       id: 0,
+      name: 'Bored Genie',
+      image: boredGenie,
+      info: 'This is a wellness appication that allows the user to randomly select an activity to stimulate either the mind or the body. We also included a fun feature to allow the User to document, and journal down their favorite ideas.',
+      imgTxt: 'project2:bored-genie',
+      liveURL: 'https://seifenan.github.io/Project-1-Bored-Genie/',
+      gitHub: 'https://github.com/Seifenan/Project-1-Bored-Genie',
+    },
+    {
+      id: 1,
       name: 'Weather Dashboard',
       image: weatherDash,
       info: 'This weather app allows users to access weather information for multiple cities and plan a trip accordingly.',
@@ -19,7 +29,7 @@ function Project() {
       gitHub: 'https://github.com/Seifenan/c6-weather-dashboard',
     },
     {
-      id: 1,
+      id: 2,
       name: 'Password Generator',
       image: passGen,
       info: 'An average Password can be guessed by the average user or be vulnerable to brute-force attacks. Using a combination of random uppercase and lowercase alphabets, as well as, numbers and special characters in your Password, increases its strength and prevents malicious users from getting in!',
@@ -28,7 +38,7 @@ function Project() {
       gitHub: 'https://github.com/Seifenan/c3-password-generator',
     },
     {
-      id: 2,
+      id: 3,
       name: 'Work Day Scheduler',
       image: wdScheduler,
       info: 'It is very easy to miss out on important events or even simple tasks. It is crucial to use some form of planner or log to help keep you organized and on task.',
@@ -37,17 +47,7 @@ function Project() {
       gitHub: 'https://github.com/Seifenan/c5-work-day-scheduler',
     },
     {
-      id: 3,
-      name: 'Code Quiz',
-      image: cQuiz,
-      info: 'This is a responsive Quiz that will provide feedback with each question response, and allows user to save or reset highscores.',
-      liveURL: 'https://seifenan.github.io/c4-code-quiz/',
-      imgTxt: 'project6:code-quiz',
-      gitHub: 'https://github.com/Seifenan/c4-code-quiz',
-    }
-    ,
-    {
-      id: 3,
+      id: 4,
       name: 'Code Quiz',
       image: cQuiz,
       info: 'This is a responsive Quiz that will provide feedback with each question response, and allows user to save or reset highscores.',
