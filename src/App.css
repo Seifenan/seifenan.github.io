@@ -1,253 +1,71 @@
-* {
-  box-sizing: border-box;
-  margin: 0 auto;
-
-  color: var(--text);
-
-
-  /* background-color: gray; */
+.App {
+    text-align: center;
 }
 
-:root {
-  --white: #ffffff;
-  --light: #c9c9c9;
-  --dark: rgb(94, 94, 94, 0.9);
-  --black: #000000;
-  --lastn: #070bfa;
-  --shadow: #7c7c7c;
-  --text: white;
+
+
+.rLogo {
+    height: 4vmin;
 }
 
-a {
-  color: var(--text);
-  text-decoration: none;
-}
+@media (prefers-reduced-motion: no-preference) {
 
-a:hover {
-  color: var(--shadow);
-  /* filter: brightness(80%); */
-}
-
-h2 {
-  text-align: center;
-}
-
-.navBar {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  top: 0;
-  padding-top: 2%;
-}
-
-.navpd {
-  padding-bottom: 5%;
-}
-
-.logo:hover {
-  filter: brightness(50%);
-}
-
-.navItems {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 20px;
-}
-
-.navItems li {
-  padding-left: 20px;
-  list-style: none;
-}
-
-.intro {
-  position: relative;
-
-  text-align: center;
-  width: 70%;
-  margin: auto;
-  padding: 2%;
-}
-
-.container {
-  /* padding: 3%; */
-  display: flex;
-  text-align: center;
-  justify-content: space-evenly;
-  position: relative;
-  /* flex-wrap: wrap; */
-}
-
-.aboutS {
-  padding: 2%;
-  margin: 2%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-
-  position: relative;
-
-  /* z-index: 9; */
-
-  border-radius: 10px;
-
-  background-color: var(--dark);
-}
-
-.bioImg {
-  width: 90%;
-  border-radius: 50%;
-}
-
-.bioInfo {
-  padding: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  padding: 7%;
-
-
-
-  /* revamp about section */
-
-
-}
-
-.container2 {
-  position: relative;
-  padding: 2%;
-}
-
-.projectSection {
-  display: flex;
-  flex-wrap: wrap;
-
-  /* flex-direction: column; */
-
-
-  padding: 2%;
-
-
-  /* background-color: red; */
-}
-
-.testC {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  padding-bottom: 5%;
-  width: 30%;
-
-  /* position: relative; */
-
-
-
-  /* background-color: blue; */
-}
-
-.card {
-  padding: 3%;
-  border-radius: 10px;
-
-  /* width: 500px; */
-  height: 100%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /* align-items: center; */
-
-
-
-  background-color: var(--dark);
+    .rLogo {
+        animation: App-logo-spin infinite 25s linear;
+    }
 }
 
 
 
 
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
 
-
-.cardLink {
-  display: flex;
-  justify-content: space-between; 
-  padding-top: 20px;
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-
-
-
-/* ___Remove___ */
-.hamburger {
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: column nowrap;
-  z-index: 10;
-}
-
-
-
-.burger {
-  width: 2rem;
-  height: .025rem;
-  border-radius: 10px;
-  background-color: white;
-  transform-origin: 1px;
-  transition: all 0.3s linear;
-
-}
-
-/* Delete__for-testing */
-
-
-
-
-
-/* _____________ */
-
-
-
-
-.footer {
-  text-align: center;
-  position: relative;
-  bottom: 0;
-  color: var(--text);
-  padding: 3%;
-
-}
-
-@media (max-width: 1000px) {}
-
-.hamburger {
-  display: none;
-}
-
-
-@media (max-width: 800px) {
-  .testC {
-    width: 40%;
-  }
-
-  .hamburger {
-    display: fixed;
-    padding-top: 10px;
-    padding-right: 10px;
-    z-index: 10;
-  }
-}
-
-@media (max-width: 480px) {
-  .testC {
-    width: 80%;
-  }
-}
-
-@media (max-width: 320px) {
-  .testC {
+#tsparticles {
+    position: fixed;
+    height: 100%;
     width: 100%;
-  }
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
 }
+
+.about {
+    display: flex;
+
+    /* align-items: center; */
+
+    /* width: 90%; */
+    /* margin: 0 auto; */
+
+
+    /* justify-content: center; */
+    color: white;
+
+
+
+    /* background: radial-gradient(circle at 100%, grey 50% , transparent 50%) */
+
+
+}
+
+.aboutP {
+    background: radial-gradient(circle at 100%, grey 50% , transparent 50%);
+    width: 30%;
+}
+
+.aboutB {
+    background-color: blue;
+    /* width: 60%; */
+}
+
+
