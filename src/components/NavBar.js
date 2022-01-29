@@ -13,7 +13,7 @@ const NavBar = () => {
             <Nav.Link href="/about">About Me</Nav.Link>
 
             <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-              <NavDropdown.Item href="">Featured Projects</NavDropdown.Item>
+              <NavDropdown.Item href="/featured">Featured Projects</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/portfolio">All Work</NavDropdown.Item>
             </NavDropdown>

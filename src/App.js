@@ -6,8 +6,10 @@ import './App.css';
 import particlesOptions from './particles.json';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Featured from './components/Featured';
 import Projects from './components/Projects';
 import About from './components/About';
+import Resume from './components/Resume';
 
 function App() {
     return (
@@ -17,8 +19,9 @@ function App() {
                 <NavBar />
                 {/* <Route exact path="/" component={} /> */}
                 <Route exact path="/about" component={About} />
+                <Route exact path="/featured" component={Featured} />
                 <Route exact path="/portfolio" component={Projects} />
-                {/* <Route exact path="/resume" component={Resume} /> */}
+                <Route exact path="/resume" component={Resume} />
                 {/* <Route exact path="/contact" component={Contact} /> */}
                 <Footer />
             </Router>

@@ -1,17 +1,46 @@
 import React from 'react';
 import rLogo from '../logo.svg';
+import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithubSquare, FaFacebookSquare, FaBootstrap } from "react-icons/fa";
-import { Button, ButtonGroup } from 'react-bootstrap';
 
 const Footer = () => {
+
+
+
+
+
   return (
     <div style={{ color: 'white' }}>
+      <div className="ftrIcons">
+        <div className='icon'>
+          <motion.button
+            whileHover={{ scale: 1.5 }}
+            whileTap={{ scale: 0.7 }}
+            onClick={() => window.open("https://www.linkedin.com/in/seifenan/", "_blank")}
+          >
+            <FaLinkedin />
+          </motion.button>
+        </div>
+        <div className="icon">
+          <motion.button
+            whileHover={{ scale: 1.5 }}
+            whileTap={{ scale: 0.7 }}
+            onClick={() => window.open("https://github.com/Seifenan", "_blank")}
+          >
+            <FaGithubSquare />
+          </motion.button>
+        </div>
+        <div className="icon">
+          <motion.button
+            whileHover={{ scale: 1.5 }}
+            whileTap={{ scale: 0.7 }}
+            onClick={() => window.open("https://www.facebook.com/seifenan", "_blank")}
+          >
+            <FaFacebookSquare />
+          </motion.button>
+        </div>
 
-      <ButtonGroup size="md" className="m-4">
-        <Button target="blank" href="https://www.linkedin.com/in/seifenan/" variant="light"><FaLinkedin /></Button>
-        <Button target="blank" href="https://github.com/Seifenan" variant="light"><FaGithubSquare /></Button>
-        <Button target="blank" href="https://www.facebook.com/seifenan" variant="light"><FaFacebookSquare /></Button>
-      </ButtonGroup>
+      </div>
 
       <h4>
         Made using<span> React<img src={rLogo} className="rLogo" alt="react logo" /></span>and Bootstrap <FaBootstrap />
