@@ -18,7 +18,7 @@ const Footer = () => {
             whileTap={{ scale: 0.7 }}
             onClick={() => window.open("https://www.linkedin.com/in/seifenan/", "_blank")}
           >
-            <FaLinkedin />
+            <FaLinkedin size={50}/>
           </motion.button>
         </div>
         <div className="icon">
@@ -27,7 +27,7 @@ const Footer = () => {
             whileTap={{ scale: 0.7 }}
             onClick={() => window.open("https://github.com/Seifenan", "_blank")}
           >
-            <FaGithubSquare />
+            <FaGithubSquare size={50}/>
           </motion.button>
         </div>
         <div className="icon">
@@ -36,7 +36,7 @@ const Footer = () => {
             whileTap={{ scale: 0.7 }}
             onClick={() => window.open("https://www.facebook.com/seifenan", "_blank")}
           >
-            <FaFacebookSquare />
+            <FaFacebookSquare size={50}/>
           </motion.button>
         </div>
 

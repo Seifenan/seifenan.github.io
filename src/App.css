@@ -2,8 +2,6 @@
   text-align: center;
 }
 
-
-
 .rLogo {
   height: 4vmin;
 }
@@ -14,9 +12,6 @@
     animation: App-logo-spin infinite 25s linear;
   }
 }
-
-
-
 
 @keyframes App-logo-spin {
   from {
@@ -39,6 +34,56 @@
   z-index: -1;
 }
 
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0.0deg)
+  }
+
+  10% {
+    transform: rotate(20.0deg)
+  }
+
+  20% {
+    transform: rotate(-15.0deg)
+  }
+
+  30% {
+    transform: rotate(15.0deg)
+  }
+
+  40% {
+    transform: rotate(-15.0deg)
+  }
+
+  50% {
+    transform: rotate(10.0deg)
+  }
+
+  60% {
+    transform: rotate(-8.0deg)
+  }
+
+  100% {
+    transform: rotate(0.0deg)
+  }
+}
+
+.about {
+  width: clamp(50%, 850px, 95%);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+  padding-top: 50px;
+}
 
 .bioPic {
   width: clamp(20%, 200px, 30%);
@@ -46,54 +91,53 @@
   padding-right: 2%;
 }
 
-.about {
-  display: flex;
-
-  align-items: center;
-
-  /* width: 90%; */
-  /* margin: 0 auto; */
-
-
-  color: white;
-  margin: 50px;
-
-
-
-  /* background: radial-gradient(circle at 100%, grey 70% , transparent 30%) */
-
-
-}
-
-.test {
-  width: clamp(50%, 850px, 95%);
-
-
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  color: white;
-  padding-top: 50px;
-
-
-}
-
-
-
-.aboutP {
-  width: 30%;
-  padding-right: 2%;
-}
-
-.aboutB {
-  /* background-color: blue; */
+.aboutT {
   width: 75%;
   background-color: rgba(94, 94, 94, .9);
   border-radius: 25px;
+}
+
+.resume {
+  margin-top: 50px;
+  color: white;
 
 }
 
+.resume a {
+  text-decoration: none;
+  color: white;
+}
 
+.resume a:hover {
+  color: rgb(0, 102, 255);
+}
+
+.skills {
+  background-color: rgba(94, 94, 94, .9);
+  border-radius: 25px;
+  padding: 20px;
+  margin: 50px;
+  margin-right: 35%;
+  margin-left: 35%;
+
+
+}
+
+.resume li {
+  list-style-type: none;
+  margin: 20px;
+
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact div {
+  padding: 50px;
+
+}
 
 
 .ftrIcons {
@@ -104,6 +148,7 @@
 
 .icon {
   padding: 5px;
+
 
 }
 

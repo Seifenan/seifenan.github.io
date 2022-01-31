@@ -6,7 +6,6 @@ import { FaGithub, FaLink } from "react-icons/fa";
 import gHunt from "../assets/img/game-hunt.jpg";
 import iFitNut from "../assets/img/iFitNut.png";
 
-
 const Featured = () => {
   const fProjects = [
     {
@@ -28,11 +27,12 @@ const Featured = () => {
       gitHub: 'https://github.com/Seifenan/Project-2-iFitNut',
     }
   ];
+
   return (
-    <Row xs={1} md={2} className="g-5 m-auto">
+    <Row xs={1} md={2} className="py-1 py-md-5 px-4 px-md-5 g-5">
       {fProjects.map((fProjects) => (
-        <Col className='mx-auto'>
-          <Card style={{ height: '600px' }}>
+        <Col className='px-md-5'>
+          <Card className='text-center' style={{ height: '100%' }}>
             <Card.Img variant="top" src={fProjects.image} alt={fProjects.imgTxt} />
             <Card.Body>
               <Card.Title>{fProjects.name}</Card.Title>
