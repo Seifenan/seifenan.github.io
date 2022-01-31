@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dab383f4.css",
+    "main.js": "/static/js/main.53325add.js",
+    "static/media/iFitNut.png": "/static/media/iFitNut.eea74e03b860921a8362.png",
+    "static/media/bored-genie.png": "/static/media/bored-genie.bb3e04b5b6a2a25bf681.png",
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.b7d0528811df8f54f858.jpg",
+    "static/media/game-hunt.jpg": "/static/media/game-hunt.30df1765dff8c621f1b7.jpg",
+    "static/media/password-gen.png": "/static/media/password-gen.79d9f5fb3f9008c63013.png",
+    "static/media/Enan-Resume.pdf": "/static/media/Enan-Resume.3853ab156dfb08dc71ae.pdf",
+    "static/media/scheduler.png": "/static/media/scheduler.2735ec82048a15db87d4.png",
+    "static/media/weather-dashboard.png": "/static/media/weather-dashboard.569aed4961c4a598ae7c.png",
+    "static/media/code-quiz.png": "/static/media/code-quiz.14fc36e37fb759e3ab57.png",
+    "static/media/logo.svg": "/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/index.html",
+    "main.dab383f4.css.map": "/static/css/main.dab383f4.css.map",
+    "main.53325add.js.map": "/static/js/main.53325add.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dab383f4.css",
+    "static/js/main.53325add.js"
+  ]
+}
