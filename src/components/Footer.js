@@ -1,5 +1,6 @@
 import React from 'react';
 import rLogo from '../logo.svg';
+import logo from '../assets/img/Enan-Logo.png'
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithubSquare, FaFacebookSquare, FaBootstrap } from "react-icons/fa";
 
@@ -45,9 +46,9 @@ const Footer = () => {
       <h4>
         Made using<span> React<img src={rLogo} className="rLogo" alt="react logo" /></span>and Bootstrap <FaBootstrap />
       </h4>
-      <p>
-        &copy; 2021 <span className="lastn">Enan</span>, Inc.
-      </p>
+      <br />
+      <img src={logo} alt='logo-light' style={{ width: '250px' }} />
+      <p> &copy; 2021</p>
     </div>
   );
 };
