@@ -1,9 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion"
 
-
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
-
 
 const Contact = () => {
   return (
@@ -20,7 +18,6 @@ const Contact = () => {
           <h5>LinkedIn</h5>
           <FaLinkedin size={150} />
         </motion.div>
-        
         <motion.div
           whileHover={{ scale: 1.5, transition: { duration: .5 } }}
           whileTap={{ scale: 0.7 }}
