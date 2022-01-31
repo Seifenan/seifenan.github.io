@@ -44,13 +44,13 @@ const Featured = () => {
                   whileHover={{ scale: 1.7 }}
                   whileTap={{ scale: 0.9 }}
                   href={fProjects.liveURL}
-                  target="blank"
+                  target="_blank"
                 ><FaLink /></motion.a>
                 <motion.a
                   whileHover={{ scale: 1.7 }}
                   whileTap={{ scale: 0.9 }}
                   href={fProjects.gitHub}
-                  target="blank"
+                  target="_blank"
                 ><FaGithub /></motion.a>
               </Card.Footer>
             </AnimatePresence>
