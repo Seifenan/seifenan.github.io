@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dab383f4.css",
-    "main.js": "/static/js/main.bdc10cdf.js",
+    "main.js": "/static/js/main.1bd3b2f9.js",
     "static/media/iFitNut.png": "/static/media/iFitNut.eea74e03b860921a8362.png",
     "static/media/bored-genie.png": "/static/media/bored-genie.bb3e04b5b6a2a25bf681.png",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.b7d0528811df8f54f858.jpg",
@@ -16,10 +16,10 @@
     "static/media/logo.svg": "/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/index.html",
     "main.dab383f4.css.map": "/static/css/main.dab383f4.css.map",
-    "main.bdc10cdf.js.map": "/static/js/main.bdc10cdf.js.map"
+    "main.1bd3b2f9.js.map": "/static/js/main.1bd3b2f9.js.map"
   },
   "entrypoints": [
     "static/css/main.dab383f4.css",
-    "static/js/main.bdc10cdf.js"
+    "static/js/main.1bd3b2f9.js"
   ]
 }
