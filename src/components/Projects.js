@@ -37,8 +37,8 @@ const Projects = () => {
       image: boredGenie,
       info: 'This is a wellness appication that allows the user to randomly select an activity to stimulate either the mind or the body. We also included a fun feature to allow the User to document, and journal down their favorite ideas.',
       imgTxt: 'project2:bored-genie',
-      liveURL: 'https://seifenan.github.io/Project-1-Bored-Genie/',
-      gitHub: 'https://github.com/Seifenan/Project-1-Bored-Genie',
+      liveURL: 'https://seifenan.github.io/Bored-Genie/',
+      gitHub: 'https://github.com/Seifenan/Bored-Genie',
     },
     {
       id: 3,
