@@ -4,6 +4,8 @@ import { FaFileDownload } from 'react-icons/fa'
 
 import resume from '../assets/Enan-Resume.pdf'
 
+
+
 const Resume = () => {
   return (
     <div className='resume'>

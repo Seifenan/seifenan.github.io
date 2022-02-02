@@ -94,13 +94,13 @@ const Projects = () => {
                   whileHover={{ scale: 1.7 }}
                   whileTap={{ scale: 0.9 }}
                   href={allWork.liveURL}
-                  target="blank"
+                  target="_blank"
                 ><FaLink /></motion.a>
                 <motion.a
                   whileHover={{ scale: 1.7 }}
                   whileTap={{ scale: 0.9 }}
                   href={allWork.gitHub}
-                  target="blank"
+                  target="_blank"
                 ><FaGithub /></motion.a>
               </Card.Footer>
             </AnimatePresence>
