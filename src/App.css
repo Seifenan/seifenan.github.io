@@ -9,7 +9,7 @@
 @media (prefers-reduced-motion: no-preference) {
 
   .rLogo {
-    animation: App-logo-spin infinite 25s linear;
+    animation: App-logo-spin infinite 7s linear;
   }
 }
 
