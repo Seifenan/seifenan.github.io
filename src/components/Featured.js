@@ -5,6 +5,10 @@ import { FaGithub, FaLink } from "react-icons/fa";
 
 import gHunt from "../assets/img/game-hunt.jpg";
 import iFitNut from "../assets/img/iFitNut.png";
+import boredGenie from "../assets/img/bored-genie.png";
+import tBlog from "../assets/img/tBlog.gif";
+
+
 
 const Featured = () => {
   const fProjects = [
@@ -25,13 +29,31 @@ const Featured = () => {
       imgTxt: 'project2:iFitNut',
       liveURL: 'https://ifitnut.herokuapp.com/',
       gitHub: 'https://github.com/Seifenan/iFitNut',
+    },
+    {
+      id: 2,
+      name: 'MVC-Tech-Blog',
+      image: tBlog,
+      info: "This is a CMS-style blog site that follows the MVC paradigm. It utilizes handlebars.js, sequelize, and the express-session package to deliver a platform where developers can post, edit and delete blog posts, and comment on other developers’ posts.",
+      imgTxt: 'C14-MVC-Tech-Blog',
+      liveURL: 'https://c14-tech-blog.herokuapp.com/',
+      gitHub: 'https://github.com/Seifenan/C14-MVC-Tech-Blog',
+    },
+    {
+      id: 3,
+      name: 'Bored Genie',
+      image: boredGenie,
+      info: 'This is a wellness appication that allows the user to randomly select an activity to stimulate either the mind or the body. We also included a fun feature to allow the User to document, and journal down their favorite ideas.',
+      imgTxt: 'project2:bored-genie',
+      liveURL: 'https://seifenan.github.io/Bored-Genie/',
+      gitHub: 'https://github.com/Seifenan/Bored-Genie',
     }
   ];
 
   return (
     <Row xs={1} md={2} className="py-1 py-md-5 px-4 px-md-5 g-5">
       {fProjects.map((fProjects) => (
-        <Col className='px-md-5'>
+        <Col className='px-md-5 mx-auto'>
           <Card className='text-center' style={{ height: '100%' }}>
             <Card.Img variant="top" src={fProjects.image} alt={fProjects.imgTxt} />
             <Card.Body>
