@@ -16,8 +16,9 @@ const Featured = () => {
       id: 0,
       name: 'Game Hunt',
       image: gHunt,
+      imgTxt: 'game-hunt',
       info: 'This application allows you to search for games from any platform, from any year, of any genre. It will show a cover image of the game, the name of the game, relese date, and an option to add the game to a list of favorites that you can access later by creating a secure login.',
-      imgTxt: 'project3:game-hunt',
+      tAnt: 'MERN Stack, Mongoose, GraphQL, Heroku, RAWG API',
       liveURL: 'https://game-hunt-3.herokuapp.com/',
       gitHub: 'https://github.com/Seifenan/Game-Hunt-3',
     },
@@ -25,8 +26,9 @@ const Featured = () => {
       id: 1,
       name: 'iFitNut',
       image: iFitNut,
+      imgTxt: 'iFitNut',
       info: 'This app is for the health conscious individual. A way to record your fitness progress, so that you can view personal historical data and remain motivated in reaching your goals.',
-      imgTxt: 'project2:iFitNut',
+      tAnt: 'Figma, HTML/CSS, JavaScript, jQuery, Node JS, Express JS, MySQL, Sequelize, Handlebars JS, Nodemailer',
       liveURL: 'https://ifitnut.herokuapp.com/',
       gitHub: 'https://github.com/Seifenan/iFitNut',
     },
@@ -34,8 +36,9 @@ const Featured = () => {
       id: 2,
       name: 'MVC-Tech-Blog',
       image: tBlog,
-      info: "This is a CMS-style blog site that follows the MVC paradigm. It utilizes handlebars.js, sequelize, and the express-session package to deliver a platform where developers can post, edit and delete blog posts, and comment on other developers’ posts.",
       imgTxt: 'C14-MVC-Tech-Blog',
+      info: "This is a CMS-style blog site that follows the MVC paradigm. It utilizes handlebars.js, sequelize, and the express-session package to deliver a platform where developers can post, edit and delete blog posts, and comment on other developers’ posts.",
+      tAnt: 'Heroku, Handlebars JS, MySQL2, Sequelize, express-handlebars, express-session, dotenv, bcrypt.',
       liveURL: 'https://c14-tech-blog.herokuapp.com/',
       gitHub: 'https://github.com/Seifenan/C14-MVC-Tech-Blog',
     },
@@ -43,8 +46,9 @@ const Featured = () => {
       id: 3,
       name: 'Bored Genie',
       image: boredGenie,
+      imgTxt: 'bored-genie',
       info: 'This is a wellness appication that allows the user to randomly select an activity to stimulate either the mind or the body. We also included a fun feature to allow the User to document, and journal down their favorite ideas.',
-      imgTxt: 'project2:bored-genie',
+      tAnt: 'Figma, HTML/CSS, JavaScript, PureCSS, FontAwesome, jQuery, GIPHY API, AudioDB API, OpenTBD API',
       liveURL: 'https://seifenan.github.io/Bored-Genie/',
       gitHub: 'https://github.com/Seifenan/Bored-Genie',
     }
@@ -54,11 +58,12 @@ const Featured = () => {
     <Row xs={1} md={2} className="py-1 py-md-5 px-4 px-md-5 g-5">
       {fProjects.map((fProjects) => (
         <Col className='px-md-5 mx-auto'>
-          <Card className='text-center' style={{ height: '100%' }}>
+          <Card style={{ height: '100%' }}>
             <Card.Img variant="top" src={fProjects.image} alt={fProjects.imgTxt} />
             <Card.Body>
               <Card.Title>{fProjects.name}</Card.Title>
-              <Card.Text>{fProjects.info}</Card.Text>
+              <Card.Text>Summary: {fProjects.info}</Card.Text>
+              <Card.Text>Tools & Technologies: {fProjects.tAnt}</Card.Text>
             </Card.Body>
             <AnimatePresence>
               <Card.Footer>
