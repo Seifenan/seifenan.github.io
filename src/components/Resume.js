@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaFileDownload } from 'react-icons/fa'
 
-import resume from '../assets/Enan-Resume.pdf'
+import resume from '../assets/enan-resume.pdf'
 
 
 
