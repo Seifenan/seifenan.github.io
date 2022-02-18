@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './App.css';
 import Particles from 'react-tsparticles';
@@ -20,12 +20,14 @@ function App() {
             <Particles options={particlesOptions} />
             <Router>
                 <NavBar />
-                <Route exact path="/"><Main /></Route>
-                <Route path="/about"><About /></Route>
-                <Route path="/featured"><Featured /></Route>
-                <Route path="/portfolio"><Projects /></Route>
-                <Route path="/resume"><Resume /></Route>
-                <Route path="/contact"><Contact /></Route>
+                <Switch>
+                    <Route exact path="/"><Main /></Route>
+                    <Route path="/about"><About /></Route>
+                    <Route path="/featured"><Featured /></Route>
+                    <Route path="/portfolio"><Projects /></Route>
+                    <Route path="/resume"><Resume /></Route>
+                    <Route path="/contact"><Contact /></Route>
+                </Switch>
                 <Footer />
             </Router>
         </div>
