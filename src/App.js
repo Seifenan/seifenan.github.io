@@ -21,11 +21,11 @@ function App() {
             <Router>
                 <NavBar />
                 <Route exact path="/" component={Main} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/featured" component={Featured} />
-                <Route exact path="/portfolio" component={Projects} />
-                <Route exact path="/resume" component={Resume} />
-                <Route exact path="/contact" component={Contact} />
+                <Route path="/about" component={About} />
+                <Route path="/featured" component={Featured} />
+                <Route path="/portfolio" component={Projects} />
+                <Route path="/resume" component={Resume} />
+                <Route path="/contact" component={Contact} />
                 <Footer />
             </Router>
         </div>
