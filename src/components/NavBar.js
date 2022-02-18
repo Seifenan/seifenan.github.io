@@ -11,14 +11,14 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
           <Nav >
-            <Nav.Link href="/about">About Me</Nav.Link>
+            <Nav.Link href="#/about">About Me</Nav.Link>
             <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/featured">Featured Projects</NavDropdown.Item>
+              <NavDropdown.Item href="#/featured">Featured Projects</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/portfolio">All Work</NavDropdown.Item>
+              <NavDropdown.Item href="#/portfolio">All Work</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/resume">Resume</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="#/resume">Resume</Nav.Link>
+            <Nav.Link href="#/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
