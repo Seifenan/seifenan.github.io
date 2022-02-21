@@ -78,11 +78,10 @@
 
 .about {
   width: clamp(50%, 850px, 95%);
-  display: flex;
-  align-items: center;
   margin: 0 auto;
   color: white;
   padding-top: 50px;
+
 }
 
 .bioPic {
@@ -92,7 +91,7 @@
 }
 
 .aboutT {
-  width: 75%;
+  margin-top: 5%;
   background-color: rgba(94, 94, 94, .9);
   border-radius: 25px;
 }
@@ -100,7 +99,6 @@
 .resume {
   margin-top: 50px;
   color: white;
-
 }
 
 .resume a {
@@ -119,14 +117,11 @@
   margin: 50px;
   margin-right: 35%;
   margin-left: 35%;
-
-
 }
 
 .resume li {
   list-style-type: none;
   margin: 20px;
-
 }
 
 .contact {
@@ -136,7 +131,6 @@
 
 .contact div {
   padding: 50px;
-
 }
 
 
@@ -148,8 +142,6 @@
 
 .icon {
   padding: 5px;
-
-
 }
 
 .card-footer {
