@@ -1,6 +1,7 @@
 import React from 'react';
 
 import bioImg from '../assets/img/profile-pic.jpg';
+import logo from '../assets/img/enan-logo-gif.gif'
 
 
 const About = () => {
@@ -19,6 +20,9 @@ const About = () => {
           With my new found knowledge and skills, immersion in the latest tools and technologies, and the desire to continue learning and improving; I aim to further develop my knowledge and skills in Redux and jQuery to complement my front-end skills and level up my knowledge in express and MySQL to complete my understanding of back-end frameworks and databases. Eager to dive deeper into the tech industry.
         </p>
       </div>
+      <br/>
+      <img src={logo} alt='logo-light' style={{ width: '400px' }} />
+
     </div>
   );
 };

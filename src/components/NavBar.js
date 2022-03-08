@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from '../assets/img/enan-logo-new.png'
+
+import logo from '../assets/img/enan-logo-gif.gif'
 
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
@@ -7,7 +8,7 @@ const NavBar = () => {
   return (
     <Navbar sticky='top' bg="light" expand="sm">
       <Container>
-        <Navbar.Brand href='/'><img src={logo} alt='enan-logo' style={{ width: '150px' }}/></Navbar.Brand>
+        <Navbar.Brand href='/'><img src={logo} alt='enan-gif' style={{ width: '150px' }}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
           <Nav >

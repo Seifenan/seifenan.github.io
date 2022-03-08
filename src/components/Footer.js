@@ -1,6 +1,8 @@
 import React from 'react';
 import rLogo from '../logo.svg';
 import logo from '../assets/img/new-logo.png'
+
+
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithubSquare, FaFacebookSquare, FaBootstrap } from "react-icons/fa";
 

@@ -1,3 +1,8 @@
+:root {
+  --text: #ffffff;
+  --bkG: rgba(94, 94, 94, .9);
+}
+
 .App {
   text-align: center;
 }
@@ -76,10 +81,24 @@
   }
 }
 
+
+.reDirect a {
+  text-decoration: none;
+  color: var(--text);
+  padding: 5px;
+  border-radius: 25px;
+  background-color: var(--bkG);
+}
+
+.reDirect a:hover {
+  filter: brightness(70%);
+}
+
+
 .about {
   width: clamp(50%, 850px, 95%);
   margin: 0 auto;
-  color: white;
+  color: var(--text);
   padding-top: 50px;
 
 }
@@ -92,18 +111,18 @@
 
 .aboutT {
   margin-top: 5%;
-  background-color: rgba(94, 94, 94, .9);
+  background-color: var(--bkG);
   border-radius: 25px;
 }
 
 .resume {
   margin-top: 50px;
-  color: white;
+  color: var(--text);
 }
 
 .resume a {
   text-decoration: none;
-  color: white;
+  color: var(--text);
 }
 
 .resume a:hover {
@@ -111,7 +130,7 @@
 }
 
 .skills {
-  background-color: rgba(94, 94, 94, .9);
+  background-color: var(--bkG);
   border-radius: 25px;
   padding: 20px;
   margin: 50px;

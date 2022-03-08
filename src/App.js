@@ -13,12 +13,14 @@ import Featured from './components/Featured';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
     return (
         <div className='App'>
             <Particles options={particlesOptions} />
             <Router>
+                <ScrollToTop />
                 <NavBar />
                 <Switch>
                     <Route exact path="/"><Main /></Route>
