@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.08dc65ad.css",
-    "main.js": "/static/js/main.5ff773fb.js",
+    "main.css": "/static/css/main.bed77c16.css",
+    "main.js": "/static/js/main.be7aa714.js",
     "static/media/bsEngine.gif": "/static/media/bsEngine.fc78ce385d90e9221a16.gif",
     "static/media/eCommerce.gif": "/static/media/eCommerce.d774a315869837b2ef2c.gif",
     "static/media/tBlog.gif": "/static/media/tBlog.eb5b5141f430b9940fd6.gif",
+    "static/media/enan-logo-gif.gif": "/static/media/enan-logo-gif.1efb5788299b3547fcc9.gif",
     "static/media/eTracker.gif": "/static/media/eTracker.8812a04c8f2a85159bbd.gif",
     "static/media/iFitNut.png": "/static/media/iFitNut.eea74e03b860921a8362.png",
     "static/media/noSQL.gif": "/static/media/noSQL.f857f416aa7ca406eb23.gif",
@@ -17,18 +18,17 @@
     "static/media/scheduler.png": "/static/media/scheduler.2735ec82048a15db87d4.png",
     "static/media/pGenerator.png": "/static/media/pGenerator.38ad5cb06d37ca9ce2f1.png",
     "static/media/weather-dashboard.png": "/static/media/weather-dashboard.569aed4961c4a598ae7c.png",
-    "static/media/enan-logo-new.png": "/static/media/enan-logo-new.11c564982327849951d8.png",
     "static/media/code-quiz.png": "/static/media/code-quiz.14fc36e37fb759e3ab57.png",
     "static/media/bTracker.png": "/static/media/bTracker.cf49d2b6960db1b403e2.png",
     "static/media/rGenerator.png": "/static/media/rGenerator.ee642d5ad51695a5042e.png",
     "static/media/new-logo.png": "/static/media/new-logo.38f45ac0a499de77733f.png",
     "static/media/logo.svg": "/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/index.html",
-    "main.08dc65ad.css.map": "/static/css/main.08dc65ad.css.map",
-    "main.5ff773fb.js.map": "/static/js/main.5ff773fb.js.map"
+    "main.bed77c16.css.map": "/static/css/main.bed77c16.css.map",
+    "main.be7aa714.js.map": "/static/js/main.be7aa714.js.map"
   },
   "entrypoints": [
-    "static/css/main.08dc65ad.css",
-    "static/js/main.5ff773fb.js"
+    "static/css/main.bed77c16.css",
+    "static/js/main.be7aa714.js"
   ]
 }
