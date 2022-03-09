@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { FaFileDownload } from 'react-icons/fa'
 
 import resume from '../assets/enan-resume.pdf'
-
+import resumeP from '../assets/img/resume.jpg'
 
 
 const Resume = () => {
@@ -19,16 +19,12 @@ const Resume = () => {
       </motion.div>
 
       <div className='skills'>
-        <h3>Skills</h3>
-        <li>HTML/CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Bootstrap</li>
-        <li>NodeJS</li>
-        <li>ExpressJS</li>
-        <li>MongoDB</li>
-        <li>Heroku</li>
-        <li>Figma</li>
+          <motion.img
+          src={resumeP}
+          whileHover={{ x: 0, y: 160, scale: 1.5, transition: { duration: 1 } }}
+          whileTap={{ x: 0, y: 40, scale: 1.9, transition: { duration: 1 } }}
+          alt='resume'
+        />
       </div>
 
     </div>

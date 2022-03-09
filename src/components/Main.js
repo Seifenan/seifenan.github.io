@@ -3,7 +3,6 @@ import Featured from './Featured';
 
 import { motion } from 'framer-motion';
 
-
 const Main = () => {
   return (
     <div>
