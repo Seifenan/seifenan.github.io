@@ -8,8 +8,6 @@ import iFitNut from "../assets/img/iFitNut.png";
 import boredGenie from "../assets/img/bored-genie.png";
 import tBlog from "../assets/img/tBlog.gif";
 
-
-
 const Featured = () => {
   const fProjects = [
     {

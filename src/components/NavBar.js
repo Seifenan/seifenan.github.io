@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from '../assets/img/enan-logo-new.png'
-
+import React, { useState } from 'react';
+import logo from '../assets/img/enan-logo-gif.gif'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 const NavBar = () => {
+
+  const [expanded, setExpanded] = useState(false);
+
   return (
-    <Navbar sticky='top' bg="light" expand="sm">
+    <Navbar sticky='top' bg="light" expand="sm" expanded={expanded}>
       <Container>
-        <Navbar.Brand href='/'><img src={logo} alt='enan-logo' style={{ width: '150px' }}/></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Brand href='/'><img src={logo} alt='enan-gif' style={{ width: '150px' }}/></Navbar.Brand>
+        <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} />
         <Navbar.Collapse className="justify-content-end">
           <Nav >
-            <Nav.Link href="/about">About Me</Nav.Link>
+            <Nav.Link onClick={() => setExpanded(false)} href="#/about">About Me</Nav.Link>
             <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/featured">Featured Projects</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => setExpanded(false)} href="#/featured">Featured Projects</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/portfolio">All Work</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => setExpanded(false)} href="#/portfolio">All Work</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/resume">Resume</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link onClick={() => setExpanded(false)} href="#/resume">Resume</Nav.Link>
+            <Nav.Link onClick={() => setExpanded(false)} href="#/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -27,5 +29,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-

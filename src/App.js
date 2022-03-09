@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './App.css';
 import Particles from 'react-tsparticles';
@@ -13,19 +13,23 @@ import Featured from './components/Featured';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
     return (
         <div className='App'>
             <Particles options={particlesOptions} />
             <Router>
+                <ScrollToTop />
                 <NavBar />
-                <Route exact path="/" component={Main} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/featured" component={Featured} />
-                <Route exact path="/portfolio" component={Projects} />
-                <Route exact path="/resume" component={Resume} />
-                <Route exact path="/contact" component={Contact} />
+                <Switch>
+                    <Route exact path="/"><Main /></Route>
+                    <Route path="/about"><About /></Route>
+                    <Route path="/featured"><Featured /></Route>
+                    <Route path="/portfolio"><Projects /></Route>
+                    <Route path="/resume"><Resume /></Route>
+                    <Route path="/contact"><Contact /></Route>
+                </Switch>
                 <Footer />
             </Router>
         </div>
